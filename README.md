@@ -30,6 +30,11 @@ pairs = [
         r"adios",
         ["Adiós, cuídate. Fue agradable hablar contigo :) "]
     ],
+    
+     [
+        r"que puedes hacer?",
+        ["Estoy diseñada para ayudar y asistir a quien requiera mi ayuda"]
+    ],
 ]
 chatbot = Chat(pairs, reflections)
 chatbot.converse()
